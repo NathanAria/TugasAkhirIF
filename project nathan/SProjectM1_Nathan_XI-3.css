@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>*:first-child{
+    width: 10%;
+    background-color: #2e2e2e;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+nav>*:first-child a{
+    width: 100%;
+    background-color: #2e2e2e;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+}
+nav>*:last-child{
+    width: 10%;
+    background-color: #2e2e2e;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+nav>*:last-child a{
+    width: 100%;
+    background-color: #2e2e2e;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+}
+
+.sec1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.asd1{
+    padding: 0;
+    width: 30%;
+    
+}
+
+.asd1 figure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: left;
+    gap: 2%;
+    margin-top: 10px;
+}
+
+.asd1>*:last-child{
+    margin-top: 178px;
+    text-align: justify;
+    width: 87%;
+}
+
+.fig1{
+    width: 75%;
+
+}
+
+.fig1 img{
+    border-radius: 15px;
+
+}
+
+button{
+    width: 70px;
+    height: 65px;
+    border: none;
+    box-shadow: 3px 3px 7px;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+footer{
+    background-color: #000000;
+    padding: 10px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 7px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer >*:last-child{
+    width: 30%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+table{
+    position: relative;
+}
+
+
+
+.pur{
+    display: flex;
+
+}
+
+.apur{
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.bpur{
+    background-color: lime;
+    height: 30px;
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    border: lime solid 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bpur:hover{
+    background-color: rgb(255, 255, 255);
+    color: lime;
+    transform: scale(1.05);
+}
+
+.home{
+    width: 25%;
+}
+
+
+/* a{
+    width: 50%;
+    text-decoration: none;
+} */
+

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top{
+    background-color: #2E2E2E;
+    border-radius: 7px;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+body{
+    /*background-image: url("Background.png");
+    background-size: 100%;*/
+    background-color: #ffffff;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 200;
+}
+
+.nav{
+
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #2E2E2E;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+  
+li a:hover {
+    background-color: #ffffff;
+    color: #2E2E2E;
+    border-radius: 7px;
+}
+
+a {
+    display: inline-block;
+}
+
+.logo {
+    width: 25px;
+    margin-top: 5px;
+}
+
+.title {
+    width: 250px;
+    height: 25px;
+    margin-left: 5px;
+    
+}
+
+header > *:first-child {
+    margin-left: 50px;
+}
+
+header > *:last-child {
+    margin-right: 50px;
+}
+
+li {
+    display: inline-block;
+    padding-inline: 5px;
+}
+
+.sec0{
+    height: 450px;
+
+    object-fit: cover;
+    
+    z-index: 0;
+    position: relative;
+}
+
+.titleatas{
+    width: 25%;
+    object-fit: cover;
+    margin-left: 74%;
+    margin-top: 15px;
+}
+
+.sec0>*:last-child a{
+    margin-left: 74%;
+    width: 25%;
+}
+
+.sec0>*:last-child{
+    margin-top: 77px;
+}
+
+.backimg{
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100vh ;
+}
+
+.backimg > video {
+    /* width: 100%; */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+.sidetext{
+    font-size: xx-large;
+    color: #ffffff;
+    text-shadow: #2E2E2E;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 175px;
+    width: 43%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.btn1{
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 3.5px solid white;
+    background-color: transparent;
+    color: #ffffff;
+    width:100%;
+}
+
+.sidetext h1{
+    text-shadow: 5px 5px 10px black;
+}
+
+footer{
+    background-color: #000000;
+    padding: 10px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 7px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer >*:last-child{
+    width: 30%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#sec1{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sec1 div {
+    width: 30%;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 5px 5px 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+#mtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: -60px;
+}
+
+#sec2{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sec2 div {
+    width: 30%;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 5px 5px 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.acard1{
+    width:50%;
+    height:7.5vh ;
+    margin-left: 50%;
+}
+
+.bcard1{
+    width: 100%;
+    height: 7.5vh;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+
+#sec1 div:hover{
+    transform: scale(1.05);
+}
+
+.aimg:hover{
+    transform: scale(1.05);
+}
+
+#sec2 div:hover{
+    transform: scale(1.05);
+}
+
+.aimg{
+    transition: all 0.3s ease-in-out;
+}
+
+.aimg img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+#sec2 h2, #sec1 h2{
+    margin-left: 5%;
+}
+
+.aimg img:hover{
+    border-radius: 12px;
+}
+
+
+

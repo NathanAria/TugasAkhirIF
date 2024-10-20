@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top{
+    background-color: #2E2E2E;
+    border-radius: 7px;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+body{
+    /*background-image: url("Background.png");
+    background-size: 100%;*/
+    background-color: #ffffff;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 200;
+}
+
+.nav{
+
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #2E2E2E;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+  
+li a:hover {
+    background-color: #ffffff;
+    color: #2E2E2E;
+    border-radius: 7px;
+}
+
+a {
+    display: inline-block;
+}
+
+.logo {
+    width: 25px;
+    margin-top: 5px;
+}
+
+.title {
+    width: 250px;
+    height: 25px;
+    margin-left: 5px;
+    
+}
+
+header > *:first-child {
+    margin-left: 50px;
+}
+
+header > *:last-child {
+    margin-right: 50px;
+}
+
+li {
+    display: inline-block;
+    padding-inline: 5px;
+}
+
+.sec0{
+    height: 450px;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-evenly;
+    z-index: 0;
+    position: relative;
+}
+
+.titleatas{
+    width: 50%;
+    margin-left: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+    
+}
+
+.sec0 .asd1{
+    height: 40px;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0px;
+    align-items: center;
+    
+}
+.fig0{
+    width: 50%;
+    height: 520px;
+    float: left;
+    
+}
+
+/*.fig0 img{
+    margin-top: 75px;
+    margin-left: 5%;
+    border-radius: 15px;
+}*/
+
+.slider{
+    width: 50%;
+    height: 400px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    cursor: grab;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
+    
+}
+
+.slider-track{
+    width:max-content;
+    height: inherit;
+    display: flex;
+    gap: 0.25rem;
+}
+
+.slider-image{
+    object-fit: cover;
+    height: 400px;
+    width: 665px;
+    border-radius: 12px;
+}
+
+.slider.active{
+    cursor:grabbing;
+}
+
+.backimg{
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* height: ; */
+}
+
+.backimg > video {
+    /* width: 100%; */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+.sidetext{
+    font-size: xx-large;
+    color: #ffffff;
+    text-shadow: #2E2E2E;
+    font-size: 50px;
+    margin-left: 4%;
+    margin-top: 75px;
+    width: 43%;
+}
+
+.sidetext h1{
+    text-shadow: 5px 5px 10px black;
+}
+
+
+.asd1 >*:last-child{
+    margin-top: 0px;
+    
+}
+
+.asd1 >*:first-child a{
+    margin-left: 50%;
+    margin-top: 432px;
+    background-color: transparent;
+}
+
+.btn1{
+    padding: 10px 136.5px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    background-color: transparent;
+    border: 3.5px solid ;
+    width: 100%;
+}
+
+footer{
+    background-color: #000000;
+    padding: 10px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 7px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer >*:last-child{
+    width: 30%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#sec1{
+    margin-top: 500px;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sec1 div {
+    width: 20%;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
+.bcard1{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.acard1{
+    width: 100%;
+}
+
+.art1{
+   height: 85px; 
+}
+
+.aimg:hover{
+    
+    transform: scale(1.05);
+}
+
+.aimg{
+    transition: all 0.25s ease-in-out;
+}
